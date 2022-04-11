@@ -1,5 +1,5 @@
 let userInput: unknown;
-let userName: string;
+let userFirstName: string;
 
 userInput = 5;
 userInput = 'Max';
@@ -7,7 +7,7 @@ userInput = 'Max';
 /* userName = userInput;　これはエラー */
 
 if(typeof userInput === 'string') {
-    userName = userInput;
+    userFirstName = userInput;
 }
 
 // 絶対に値を返すことはないと言うことを示すのがnever
